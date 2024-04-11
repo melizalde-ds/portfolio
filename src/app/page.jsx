@@ -38,7 +38,7 @@ const articles = [
 
 const intro = {
   image: "profile.jpeg",
-  title: "Software engineer, father, and believer",
+  title: "Miguel Elizalde",
   introduction:
     "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
   linkedIn_link: "https://www.linkedin.com",
