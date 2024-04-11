@@ -9,7 +9,7 @@ function Footer() {
     { id: 3, url: "/projects", label: "Projects" },
     { id: 4, url: "/uses", label: "Uses" },
   ];
-  return (
+  /*return (
     <footer data-testid="footer" className="footer">
       <ul>
         {navLinks.map((link, index) => (
@@ -21,6 +21,8 @@ function Footer() {
       <p data-testid="footerContent">© John Doe All rights reserved. {new Date().getFullYear()}</p>
     </footer>
   );
+} */
+ return <></>
 }
 
 export default Footer;

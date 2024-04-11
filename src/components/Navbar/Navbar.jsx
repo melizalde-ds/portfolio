@@ -21,8 +21,8 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [size]);
-  if (size < 650) return <DropdownMenu links={navLinks} />;
-  return <MenuBar links={navLinks} />;
+  if (size < 650) return <></>;
+  return <></>;
 };
 
 export default Navbar;
