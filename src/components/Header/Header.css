@@ -1,0 +1,18 @@
+#header {
+  height: 5vw;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.66vw 6.66vw 0.55vw 6.66vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  #header {
+    height: 88px;
+    align-items: center;
+    justify-content: right;
+    gap: 5vw;
+    padding: 24px 16px;
+  }
+}

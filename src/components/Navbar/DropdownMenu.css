@@ -1,0 +1,33 @@
+.dropdown button {
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  gap: 12px;
+  border: 1px solid #17171a0d;
+  color: var(--highlight-color);
+}
+
+#vector {
+  fill: var(--highlight-color);
+}
+
+.dark .dropdown button {
+  background-color: var(--border-color);
+  opacity: 0.9;
+  border: 1px solid #3f3f4666;
+}
+
+.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--primary-color);
+  color: var(--paragraph-color);
+  border: 1px solid var(--border-color);
+}
