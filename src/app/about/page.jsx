@@ -3,15 +3,15 @@ import Footer from "@/components/Footer/Footer";
 import "./About.css";
 
 export const metadata = {
-  title: "I'm Jane. I live in New York City, Where I develop the future.",
+  title: "Meet Miguel Elizalde: Your Guide to Innovation and Creativity",
   paragraph1:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+    "Hey there! I'm Miguel, a student at Ensign College with an insatiable passion for machine learning and artificial intelligence. Ever since I embarked on my journey into the realms of AI and ML, I've been captivated by the endless possibilities these fields offer to reshape our world.",
   paragraph2:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+    "Throughout my academic career, I've dedicated myself to mastering the intricacies of machine learning algorithms, data analysis techniques, and the latest advancements in artificial intelligence. My time at Ensign College has provided me with a solid foundation in computer science and a deep understanding of the theoretical principles that underpin AI and ML technologies.",
   paragraph3:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+    "Beyond the classroom, I've had the privilege of gaining practical experience through internships and work opportunities in both software engineering and data science. These experiences have not only honed my technical skills but also exposed me to real-world challenges and innovative solutions at the intersection of technology and business.",
   paragraph4:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+    "As I continue to pursue my passion for AI and ML, I am committed to pushing the boundaries of what's possible and leveraging technology to drive positive change in the world. Whether it's developing cutting-edge algorithms or leveraging data-driven insights to solve complex problems, I'm excited to be at the forefront of innovation and creativity in this dynamic field.",
 };
 
 export default function About() {
@@ -36,10 +36,10 @@ export default function About() {
       </div>
       <div id="main_right">
         <div id="profile-picture">
-          <img src="about.jpeg" alt="Profile Picture" className="picture" />
+          <img src="profile.jpeg" alt="Profile Picture" className="picture" />
         </div>
         <div className="socials">
-          <a href="https://www.twitter.com/janedoe">
+          <a href="https://www.twitter.com">
             <svg
               width="20"
               height="20"
@@ -55,7 +55,7 @@ export default function About() {
             </svg>{" "}
             Follow me on X
           </a>
-          <a href="https://www.github.com/janedoe">
+          <a href="https://www.github.com/melizalde-ds">
             <svg
               width="20"
               height="20"
@@ -73,7 +73,7 @@ export default function About() {
             </svg>{" "}
             Follow me on GitHub
           </a>
-          <a href="https://www.linkedin.com/in/jane-doe">
+          <a href="https://www.linkedin.com/in/miguelelizaldecruz/">
             <svg
               width="18"
               height="18"
@@ -91,7 +91,7 @@ export default function About() {
           </a>
         </div>
         <div className="email">
-          <a href="mailto:jhondo@gmail.com" id="email-a">
+          <a href="mailto:miguel.elizalde.19.98@live.com" id="email-a">
             <svg
               width="22"
               height="18"
