@@ -5,7 +5,6 @@ import SignupWidget from "@/components/SignupWidget/SignupWidget";
 import WorkWidget from "@/components/WorkedWidget/WorkedWidget";
 import SkillsWidget from "@/components/SkillsWidget/SkillsWidget";
 import Footer from "@/components/Footer/Footer";
-import "./globals.css";
 
 export const metadata = {
   title: "Portfolio - Home",
@@ -87,28 +86,28 @@ export default function Home() {
             content={"My work experience."}
             experiences={[
               {
-                logo: "/slack.png",
+                logo: "slack.png",
                 organization: "Slack",
                 jobTitle: "Software Engineer",
                 startYear: 2016,
                 endYear: null,
               },
               {
-                logo: "/spotify.png",
+                logo: "spotify.png",
                 organization: "Spotify",
                 jobTitle: "Software Engineer",
                 startYear: 2014,
                 endYear: 2015,
               },
               {
-                logo: "/audible.png",
+                logo: "audible.png",
                 organization: "Audible",
                 jobTitle: "Software Engineer",
                 startYear: 2012,
                 endYear: 2013,
               },
               {
-                logo: "/microsoft.png",
+                logo: "microsoft.png",
                 organization: "Microsoft",
                 jobTitle: "Software Engineer",
                 startYear: 2010,
