@@ -18,4 +18,6 @@ const Empty = () => {
   return <div className="empty"></div>;
 };
 
+Empty.propTypes = {};
+
 export default Empty;

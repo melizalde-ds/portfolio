@@ -71,4 +71,10 @@ Intro.propTypes = {
   github_link: PropTypes.string,
 };
 
+Intro.defaultProps = {
+  linkedIn_link: "#",
+  x_link: "#",
+  github_link: "#",
+};
+
 export default Intro;

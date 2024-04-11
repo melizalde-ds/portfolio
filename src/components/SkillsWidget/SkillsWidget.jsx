@@ -35,9 +35,9 @@ SkillsWidget.propTypes = {
   content: PropTypes.string.isRequired,
   skills: PropTypes.arrayOf(
     PropTypes.shape({
-      icon: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      proficiency: PropTypes.number.isRequired,
+      icon: PropTypes.string,
+      name: PropTypes.string,
+      proficiency: PropTypes.number,
     })
   ),
 };

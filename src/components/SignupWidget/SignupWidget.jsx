@@ -79,4 +79,8 @@ SignupWidget.propTypes = {
   simulateNetworkRequestTime: PropTypes.number,
 };
 
+SignupWidget.defaultProps = {
+  simulateNetworkRequestTime: 2000,
+};
+
 export default SignupWidget;

@@ -7,12 +7,14 @@ export function Header() {
   return (
     <header id="header">
       <Empty />
-      <Navbar breakpoint={750} />
+      <Navbar />
       <div className="darkModeButton">
         <DarkModeBotton />
       </div>
     </header>
   );
 }
+
+Header.propTypes = {};
 
 export default Header;
