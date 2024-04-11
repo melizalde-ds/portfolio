@@ -1,9 +1,12 @@
-import Navbar from "@/components/Navbar/Navbar";
-import DarkModeBotton from "@/components/DarkModeBotton/DarkModeBotton";
 import "./Header.css";
-import Empty from "./Empty";
+import dynamic from "next/dynamic";
+const Empty = dynamic(() => import("./Empty"), { ssr: false });
+const Navbar = dynamic(() => import("@/components/Navbar/Navbar"), { ssr: false });
+const DarkModeBotton = dynamic(() => import("@/components/DarkModeBotton/DarkModeBotton"), { ssr: false });
 
 export function Header() {
+
+
   return (
     <header id="header">
       <Empty />

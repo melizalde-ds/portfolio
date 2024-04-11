@@ -1,9 +1,9 @@
 "use client";
-import PropTypes from "prop-types";
 import "./DarkModeBotton.css"; // Import the CSS file
 import { useEffect, useMemo, useState, React } from "react";
 
 export function DarkModeBotton() {
+
   const prefersDarkMode = useMemo(() => {
     const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     return dark;
@@ -57,4 +57,7 @@ export function DarkModeBotton() {
     </div>
   );
 }
+
+DarkModeBotton.propTypes = {};
+
 export default DarkModeBotton;
