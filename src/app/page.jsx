@@ -13,42 +13,40 @@ export const metadata = {
 
 const articles = [
   {
-    date: "December 25, 2023",
-    title: "Lorem ipsum dolor sit ame",
+    date: "April 10, 2024",
+    title: "Mastering Data Pipelines: ELT with Python",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...",
-    link: "#",
+      "Unlock the power of data pipelines with Python as we explore the Extract, Load, Transform (ELT) process. Discover how Python libraries like pandas and SQLAlchemy streamline data extraction from various sources, loading it into a target destination, and transforming it to meet your analysis needs. From data warehousing to real-time analytics, learn how ELT empowers businesses to harness the full potential of their data. Whether you're a data engineer, analyst, or enthusiast, this article provides a practical guide to building robust ELT pipelines with Python.",
   },
   {
-    date: "December 25, 2023",
-    title: "Lorem ipsum dolor sit ame",
+    date: "April 5, 2024",
+    title: "Demystifying Computer Vision: A Snapshot of Visual Intelligence",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...",
-    link: "#",
+      "Dive into the world of computer vision, where images and videos come alive with meaning. Explore the basics of algorithms and deep learning models powering visual recognition systems. From autonomous vehicles to healthcare, uncover how computer vision is reshaping industries. Whether you're a tech enthusiast or a curious mind, join us for a quick tour of this fascinating field.",
   },
   {
-    date: "December 25, 2023",
-    title: "Lorem ipsum dolor sit ame",
+    date: "March 29, 2024",
+    title: "My Journey in AI & ML: From Passion to Portfolio",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...",
+      "Join me as I share my personal journey in the world of artificial intelligence and machine learning. From my earliest experiments to building a robust portfolio of AI projects, I offer insights, lessons learned, and tips for aspiring AI enthusiasts.",
     link: "#",
   },
 ];
 
 const intro = {
   image: "profile.jpeg",
-  title: "Miguel Elizalde",
+  title: "AI Unboxed: Miguel Elizalde's AI & ML Expedition",
   introduction:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
-  linkedIn_link: "https://www.linkedin.com",
+    "Hey there! I'm Miguel, and I'm excited to have you here in my digital space dedicated to artificial intelligence and machine learning. Within these pages, you'll find a curated selection of my adventures in AI, from predicting the future to understanding human language. Each project represents not just my skills but also my passion for exploring the endless possibilities of AI and ML. So, buckle up and join me on this journey. Let's dive into the thrilling world of AI together!",
+  linkedIn_link: "https://www.linkedin.com/in/miguelelizaldecruz/",
   x_link: "https://www.twitter.com",
-  github_link: "https://www.github.com",
+  github_link: "https://www.github.com/melizalde-ds",
 };
 
 const skills = [
-  { name: "HTML", proficiency: 60, icon: "html5.png" },
-  { name: "CSS", proficiency: 50, icon: "css3.png" },
-  { name: "JavaScript", proficiency: 75, icon: "javascript.png" },
+  { name: "Python", proficiency: 80, icon: "python.png" },
+  { name: "TensorFlow", proficiency: 50, icon: "tensorflow.png" },
+  { name: "JavaScript", proficiency: 60, icon: "javascript.png" },
 ];
 
 export default function Home() {
@@ -79,45 +77,42 @@ export default function Home() {
         <div id="main_right">
           <SignupWidget
             title={"Stay up to date"}
-            content={"Get notified when I publish something new, and unsubscribe at any time."}
+            content={
+              "Get notified when I publish something new, and unsubscribe at any time."
+            }
           />
           <WorkWidget
             title={"Work"}
             content={"My work experience."}
             experiences={[
               {
-                logo: "slack.png",
-                organization: "Slack",
-                jobTitle: "Software Engineer",
-                startYear: 2016,
+                logo: "kaaktek.png",
+                organization: "KaakTek",
+                jobTitle: "Founder and CEO",
+                startYear: 2024,
                 endYear: null,
               },
               {
-                logo: "spotify.png",
-                organization: "Spotify",
-                jobTitle: "Software Engineer",
-                startYear: 2014,
-                endYear: 2015,
+                logo: "ensign_college.png",
+                organization: "Ensign College",
+                jobTitle: "Data Scientist",
+                startYear: 2023,
+                endYear: 2024,
               },
               {
-                logo: "audible.png",
-                organization: "Audible",
-                jobTitle: "Software Engineer",
-                startYear: 2012,
-                endYear: 2013,
-              },
-              {
-                logo: "microsoft.png",
-                organization: "Microsoft",
-                jobTitle: "Software Engineer",
-                startYear: 2010,
-                endYear: 2011,
+                logo: "cg-consultores-juridicos.png",
+                organization: "Consultores Juridicos Cruz",
+                jobTitle: "Software Engineer & Data Scientist",
+                startYear: 2020,
+                endYear: 2023,
               },
             ]}
           />
           <SkillsWidget
             title={"Skills"}
-            content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."}
+            content={
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."
+            }
             skills={skills}
           />
         </div>

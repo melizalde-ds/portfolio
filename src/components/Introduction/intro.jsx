@@ -10,7 +10,7 @@ const Intro = ({ image, title, introduction, linkedIn_link, x_link, github_link 
         <p data-testid={"introDescription"}>{introduction}</p>
       </div>
       <div className="icon-links">
-        <a href={linkedIn_link}>
+        <a href={linkedIn_link} target="_blank">
           <svg
             width="18"
             height="18"
@@ -25,7 +25,7 @@ const Intro = ({ image, title, introduction, linkedIn_link, x_link, github_link 
             />
           </svg>
         </a>
-        <a href={x_link}>
+        <a href={x_link} target="_blank">
           <svg
             width="20"
             height="20"
@@ -40,7 +40,7 @@ const Intro = ({ image, title, introduction, linkedIn_link, x_link, github_link 
             />
           </svg>
         </a>
-        <a href={github_link}>
+        <a href={github_link} target="_blank">
           <svg
             width="20"
             height="20"
