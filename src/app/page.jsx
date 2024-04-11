@@ -1,5 +1,5 @@
 import Header from "@/components/Header/Header";
-import Intro from "@/components/introduction/intro";
+import Intro from "@/components/Introduction/intro";
 import ArticleCard from "@/components/ArticleCard/ArticleCard";
 import SignupWidget from "@/components/SignupWidget/SignupWidget";
 import WorkWidget from "@/components/WorkedWidget/WorkedWidget";
