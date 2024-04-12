@@ -7,7 +7,7 @@ import "./Projects.css";
 export const metadata = {
   title: "Things I’ve made trying to put my dent in the universe.",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+    "Welcome to my projects gallery! Here, you'll find a curated collection of my endeavors showcasing my skills and expertise in the realms of machine learning, artificial intelligence, software engineering, and beyond. Each project represents a journey of exploration, innovation, and problem-solving, reflecting my passion for leveraging technology to drive impactful solutions. From predictive modeling to natural language processing and software development, these projects offer a glimpse into my creative process, technical proficiency, and commitment to excellence. Join me on this journey as we explore the exciting world of technology through the lens of innovation and discovery.    ",
   projects: [
     {
       company: "Company",
